@@ -1,0 +1,28 @@
+# Python environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Generated predictions
+predictions/*-out.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Hidden SST test labels
+data/ids-sst-test_truthlabel.csv
